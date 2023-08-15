@@ -1,4 +1,5 @@
 import "./App.css";
+import Recommended from "./component/Recommended";
 import Scroller from "./component/Scroller";
 import SearchBar from "./component/SearchBar";
 import Header from "./component/header";
@@ -12,6 +13,7 @@ function App() {
       <div className="m-5">
         <SearchBar />
         <Scroller />
+        <Recommended/>
       </div>
     </>
   );
