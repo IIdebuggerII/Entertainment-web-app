@@ -4,7 +4,7 @@ export default function SearchBar() {
   return (
     <>
       <div className=" flex flex-row">
-        <button className=" border-r-2 pr-5">
+        <button className="  pr-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"

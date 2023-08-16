@@ -49,14 +49,18 @@ export default function Scrolllitem() {
       </span>
       <div className="w-1/3 absolute bottom-2 left-4 flex flex-col">
         <div className="flex flex-row items-baseline">
-          <p className="opacity-40 text-xs">2019 </p>.
-          <p className="opacity-40 text-xs">Movie </p>.
-          <p className="opacity-40 text-xs"> PG</p>
+          <p className="opacity-40 text-xs">2019 </p>
+          <span className='opacity-60 text-xl scale-150 mx-2 relative -top-2'> .</span>
+          <p className="opacity-40 text-xs">Movie </p>
+          <p className="opacity-40 text-xs hidden"> PG</p>
         </div>
         <div>
           <p>dsadsd</p>
         </div>
+
       </div>
+      <span className="absolute right-3 bottom-4 bg-slate-600 bg-opacity-30 rounded-full px-3">PG</span>
+
       </div>
 
     </div>
