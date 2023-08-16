@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className="px-4 py-5 flex flex-row justify-between items-center">
+    <div className="mx-7  flex flex-row  justify-between items-center lg:relative  lg:flex-col lg:h-full lg:mx-3">
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -20,8 +20,8 @@ export default function Header() {
         </svg>
       </div>
       <div>
-        <ul className="flex flex-row p-2">
-          <li className="px-3">
+        <ul className="flex flex-row p-2 lg:flex-col">
+          <li className="px-3 py-5">
             <a href="">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ export default function Header() {
               </svg>
             </a>
           </li>
-          <li className="px-3">
+          <li className="px-3 py-5">
             <a href="">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ export default function Header() {
             </a>
           </li>
 
-          <li className="px-3">
+          <li className="px-3 py-5">
             <a href="">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@ export default function Header() {
               </svg>
             </a>
           </li>
-          <li className="px-3">
+          <li className="px-3 py-5">
             <a href="">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -3,7 +3,7 @@ import React from "react";
 export default function SearchBar() {
   return (
     <>
-      <div className=" flex flex-row">
+      <div className=" flex flex-row m-7">
         <button className="  pr-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
