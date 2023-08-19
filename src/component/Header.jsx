@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className="mx-7  flex flex-row  justify-between items-center lg:relative  lg:flex-col lg:h-full lg:mx-3">
+    <div className="mx-7  flex flex-row  justify-between items-center lg:relative  lg:flex-col lg:h-full lg:justify-around">
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"

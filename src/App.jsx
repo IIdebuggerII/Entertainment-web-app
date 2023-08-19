@@ -7,11 +7,11 @@ import Header from "./component/Header";
 function App() {
   return (
     <>
-      <div className="flex flex-col lg:flex-row lg:p-5 ">
-        <div className="bg-darkblue w-full lg:rounded-3xl lg:max-h-screen lg:w-1/12 lg:py-6 ">
+      <div className="lg:grid lg:grid-cols-12 lg:pl-5 lg:pt-5 flex flex-col">
+        <div className="bg-darkblue lg:col-span-1 lg:rounded-3xl  w-full lg:h-[96vh] ">
           <Header />
         </div>
-        <div className="lg:m-5 lg:w-11/12 ">
+        <div className="lg:m-12 lg:w-11/12 lg:col-span-11">
           <SearchBar />
           <Scroller />
           <Recommended />
