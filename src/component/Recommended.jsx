@@ -55,7 +55,7 @@ export default function Recommended() {
   return (
     <>
       <div className="m-7">
-        <p className="text-2xl mt-6">Recommended for you</p>
+        <p className="text-2xl mt-6 font-semibold">Recommended for you</p>
         <div className="grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid-row grid mt-10 gap-7">
           {Movies.map((data) => (
             <div key={data.details} className="">

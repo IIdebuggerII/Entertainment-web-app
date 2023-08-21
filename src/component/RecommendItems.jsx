@@ -3,30 +3,31 @@ import React from "react";
 export default function RecommendItems(props) {
   return (
     <div className="flex flex-col container">
-      <div>
-        <div className="relative hover:scale-105 duration-75  ">
+      <div className="">
+        <div className=" overflow-hidden rounded-xl">
           <img
-            className="rounded-xl h-[200px]  w-full object-cover "
+            className="  hover:scale-110 transition duration-500  object-cover w-full    h-[200px] lg:w-[361.81px]
+             "
             src={props.img}
             alt=""
           />
-          <span className="absolute top-2 right-3 z-10 bg-darkblue bg-opacity-60 p-1 rounded-full">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z"
-              />
-            </svg>
-          </span>
         </div>
+        <span className="absolute top-2 right-3 z-10 bg-darkblue bg-opacity-60 p-1 rounded-full">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z"
+            />
+          </svg>
+        </span>
       </div>
       <div className="flex flex-col mt-2 ">
         <div className="flex   flex-row ">
