@@ -2,21 +2,22 @@ import React from "react";
 
 export default function Scrolllitem() {
   return (
-    <div className="min-w-[300px]  mr-8 relative mb-2">
-      <div className="absolute w-full bg-gradient-to-tr rounded-lg from-gray-800  to-transparent  h-full   "></div>
+    <div className="min-w-[300px]  mr-8 relative mb-4  ">
+      
       <img
         className="w-full rounded-lg "
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqO2lgR5vlT0YIsnkHTynIJkTfU4FoegKiwRA0hexJ&s"
         alt=""
       />
-      <span className="absolute top-2 right-3 z-10 bg-darkblue opacity-60 p-2 rounded-full">
+      <div className="visible lg:opacity-0 lg:hover:opacity-100 duration-75 cursor-pointer">
+      <span className="absolute top-2 right-3 z-10 bg-darkblue opacity-90 p-2 rounded-full">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           strokeWidth={2}
           stroke="currentColor"
-          className="w-6 h-6"
+          className="w-6 h-6 "
         >
           <path
             strokeLinecap="round"
@@ -25,6 +26,7 @@ export default function Scrolllitem() {
           />
         </svg>
       </span>
+      <div className="absolute w-full bg-gradient-to-tr rounded-lg from-gray-800  to-transparent  top-0 h-full   "></div>
       <div className="w-1/3 absolute bottom-2 left-4 flex flex-col">
         <div className="flex flex-row items-baseline">
           <p className="opacity-40 text-xs">2019 </p>
@@ -39,9 +41,10 @@ export default function Scrolllitem() {
           <p>dsadsd</p>
         </div>
       </div>
-      <span className="absolute right-3 bottom-4 bg-slate-600 bg-opacity-30 rounded-full px-3">
+      <span className="absolute right-3 bottom-4 bg-darkblue  rounded-full px-3 ">
         PG
       </span>
+      </div>
     </div>
   );
 }

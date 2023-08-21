@@ -4,7 +4,7 @@ export default function RecommendItems(props) {
   return (
     <div className="flex flex-col container">
       <div>
-        <div className="relative ">
+        <div className="relative hover:scale-105 duration-75  ">
           <img
             className="rounded-xl h-[200px]  w-full object-cover "
             src={props.img}

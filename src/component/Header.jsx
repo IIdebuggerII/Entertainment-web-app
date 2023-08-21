@@ -10,7 +10,7 @@ export default function Header() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="lightcoral"
-          className="w-8 h-8 "
+          className="w-8 h-8 cursor-pointer"
         >
           <path
             strokeLinecap="round"
@@ -95,7 +95,7 @@ export default function Header() {
         <img
           src="../../public/userprofile.PNG"
           alt=""
-          className="rounded-full w-10 border-2"
+          className="rounded-full w-10 border-2 cursor-pointer"
         />
       </div>
     </div>
